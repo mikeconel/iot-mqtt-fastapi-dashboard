@@ -1,4 +1,4 @@
-echo "fastapi
+fastapi
 uvicorn[standard]
 paho-mqtt
-streamlit" > requirements.txt
+streamlit
