@@ -13,7 +13,7 @@ from datetime import datetime
 BROKER = "broker.hivemq.com"
 PORT = 1883
 TOPIC = "sensors/bis_room_2"
-FASTAPI_URL = "http://localhost:8000/readings?limit=50"
+FASTAPI_URL = "http://localhost:8002/readings?limit=50"
 
 # --- Shared State (Thread-Safe) ---
 shared_data = {
